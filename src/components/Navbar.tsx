@@ -42,12 +42,15 @@ function Navbar() {
             >
               Games
             </a>
-            <a
+            {/* <a
               href="/lists"
               className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors whitespace-nowrap"
             >
               Lists
-            </a>
+            </a> */}
+            
+            <Link to="/List" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors whitespace-nowrap">List</Link>
+
             {/* LOGIN pop up */}  
             <Dialog>
               <DialogTrigger className="text-white">Login</DialogTrigger>

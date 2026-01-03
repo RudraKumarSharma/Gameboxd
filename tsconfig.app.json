@@ -30,5 +30,11 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "backend/API",
+    "backend/index.ts",
+    "backend/app.ts",
+    "backend/routes"
+  ]
 }
